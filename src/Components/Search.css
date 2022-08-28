@@ -1,0 +1,57 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  display: flex;
+}
+.box {
+  position: relative;
+}
+
+.input {
+  padding: 10px;
+  width: 80px;
+  height: 80px;
+  background: white;
+  border: solid rgb(219, 15, 39);
+  border-radius: 50px;
+  box-sizing: border-box;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 21px;
+  color: black;
+  outline: none;
+  transition: 0.5s;
+  border-width: 2px;
+}
+.box:hover input {
+  width: 350px;
+  background: rgb yellow;
+  border-radius: 10px;
+}
+.box i {
+  position: absolute;
+  top: 50%;
+  right: 15px;
+  transform: translate(-50%, -50%);
+  font-size: 26px;
+  color: #ffd52d;
+  transition: 0.2s;
+}
+.box:hover i {
+  opacity: 0;
+  z-index: -1;
+}
+
+#books img:hover {
+  transform: translateY(-10px);
+  transition: 0.2s;
+}
+.Book-Search input {
+  margin-left: 500px;
+  border-radius: 40px;
+  font-size: 20px;
+  color: black;
+  width: 400px;
+  height: 30px;
+  padding: 10px;
+}
